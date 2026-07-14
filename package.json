@@ -1,9 +1,12 @@
 ﻿{
-    "name":  "wecom-ai-bot",
-    "version":  "1.0.0",
-    "private":  true,
-    "scripts":  {
-                    "start":  "node server.js",
-                    "dev":  "node server.js"
-                }
+  "name": "wecom-ai-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
